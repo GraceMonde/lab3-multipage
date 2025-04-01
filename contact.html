@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required minlength="3" placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required minlength="5" placeholder="Enter subject">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required minlength="10" placeholder="Type your message here"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Our Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
